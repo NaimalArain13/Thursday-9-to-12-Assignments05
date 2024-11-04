@@ -6,28 +6,26 @@ export default function Navbar() {
     <div className="h-[70px] bg-[#A29875] flex items-center">
       <div className="w-full max-w-[1486px] h-[87px] flex items-center">
         <div className="md:w-[242px] flex py-[11] items-center text-white px-2 md:px-7">
-          <h1>
             <Image src={"/images/logo.png"} alt="logo" width={50} height={50} />
-          </h1>
           <h1 className=" w-full h-[83px] flex items-center font-serif text-[50px]">
             urity
           </h1>
         </div>
-        <div className="h-14 w-full max-w-[769px] px-3 top-[39px] left-[431px] rounded-[13px] bg-neutral-100  hidden md:flex justify-between items-center">
-          <p className="text-sm ">
-            Search for Gold Jewellery, Diamond Jewellery and more…
-          </p>
-          <p className="w-[21px] h-[21px] ">
-            <Image
-              src={"/images/search.png"}
-              alt="search-icon"
-              width={19}
-              height={19}
-            />
-          </p>
+        <div className="hidden md:flex items-center h-12 w-full max-w-md rounded-md bg-neutral-100 lg:h-14 lg:max-w-lg lg:ml-16 lg:px-3">
+          <input
+            type="text"
+            placeholder="Search for Gold Jewellery, Diamond Jewellery and more…"
+            className="flex-1 px-4 text-sm text-gray-600 bg-transparent outline-none"
+          />
+          <Image
+            src={"/images/search.png"}
+            alt="search-icon"
+            width={20}
+            height={20}
+          />
         </div>
-        <div className="w-full max-w-[177px] h-[30px] top-13 ml-28">
-          <div className="hidden md:flex gap-[38px]">
+        <div className="w-full max-w-[177px]  h-[30px] top-13 ml-28">
+          <div className="hidden md:flex  gap-[38px]">
             <p>
               <Image
                 src={"/images/heart.png"}
