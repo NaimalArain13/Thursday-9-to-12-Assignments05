@@ -3,7 +3,7 @@ import React from 'react'
 export default function Banner() {
   return (
       <div className='h-[80%] bg-white'>
-        <div className='flex flex-col md:flex-row  h-[573px] w-[1271px]  items-center md:m-10'>
+        <div className='flex   h-[573px] w-[1271px]  items-center md:m-10'>
           <div className='flex flex-col gap-y-9 ml-3'>
             <h1 className='w-[472px] h-[162px] font-bold text-[37px]'>
               IMPECCABLE CRAFTSMANSHIP AND FINESSE
