@@ -51,7 +51,7 @@ export default function Home() {
           </h1>
           <p className="md:w-[798px] md:h-36 mb-2 font-medium  text-md md:text-[29px] text-[#787054]">
             An example of intricate workmanship and detail, elegant necklaces
-            and long and short chains form a part of our desirable collection.
+            and long and short chains form a part of our desirable collection.w-[421px] h-[573px]
           </p>
           <button className="md:text-[25px] text-lg font-medium w-md md:w-[274px] md:h-[49px] bg-[#A29875] text-white px-5 py-2 md:p-2 rounded-lg">
             {" "}
@@ -62,7 +62,7 @@ export default function Home() {
           className="hidden w-[421px] h-[573px] md:flex justify-center items-center bg-cover bg-center "
           style={{ backgroundImage: `url('/images/banner.png')` }}
         >
-          <div className="w-[380px] h-[525px] border-[3px] border-white m-5   rounded-tl-[128px] rounded-br-[128px]"></div>
+          <div className="w-[380px] h-[525px] border-[3px] border-white m-5 rounded-tl-[128px] rounded-br-[128px]"></div>
         </div>
       </div>
     </div>
