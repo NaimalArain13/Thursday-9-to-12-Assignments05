@@ -3,11 +3,11 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <div className="h-[20%] bg-[#A29875] flex items-center">
+    <div className="h-[70px] bg-[#A29875] flex items-center">
       <div className="h-[87px] flex items-center">
-        <div className="w-[242px] flex py-[11] items-center text-white px-7">
+        <div className="md:w-[242px] flex py-[11] items-center text-white px-2 md:px-7">
           <h1>
-            <Image src={"/images/logo.png"} alt="logo" width={63} height={70} />
+            <Image src={"/images/logo.png"} alt="logo" width={50} height={50} />
           </h1>
           <h1 className=" w-[174px] h-[83px] flex items-center font-serif text-[50px]">
             urity
