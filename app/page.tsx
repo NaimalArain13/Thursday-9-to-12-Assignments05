@@ -8,13 +8,13 @@ export default function Home() {
 
       <div className="flex flex-col gap-y-5  md:flex-row md:justify-between h-[80%] m-5 md:m-14">
         <div
-          className="w-full md:h-[573px] w-96  md:hidden justify-center items-center bg-cover bg-center rounded-tl-[128px] rounded-br-[128px]"
+          className="w-full max-w-[421px] md:h-[573px]  md:hidden justify-center items-center bg-cover bg-center rounded-tl-[128px] rounded-br-[128px]"
           style={{ backgroundImage: `url('/images/banner.png')`}}
         >
           <div className="w-[380px] h-[525px] border-[3px] m-5 border-white rounded-tl-[128px] rounded-br-[128px]"></div>
         </div>
         <div className="md:w-1/2 flex gap-y-3 p-4 flex-col md:pt-3 justify-center items-center md:gap-y-5 md:items-start">
-          <h1 className="text-3xl md:text-[44px] leading-snug md:h-[162px] font-bold">
+          <h1 className={`text-3xl md:text-[44px] leading-snug md:h-[162px] font-Roboto font-bold`}>
             IMPECCABLE CRAFTSMANSHIP AND FINESSE
           </h1>
           <p className="md:w-[798px] md:h-36 mb-2 font-medium  text-md md:text-[29px] text-[#787054]">
@@ -36,3 +36,4 @@ export default function Home() {
     </div>
   );
 }
+
