@@ -15,11 +15,11 @@ export default function Banner() {
             </div>
           <div className="flex md:justify-between items-center">
             <div className="flex flex-col text-center md:text-left">
-              <h1 className="font-bold font-[Roboto] mb-2 leading-loose text-3xl md:text-5xl md:h-40 md:w-[472px]">
+              <h1 className="font-bold font-[Roboto] mb-2 leading-loose text-3xl md:text-5xl w-full md:h-40 md:w-[472px]">
                 {" "}
                 IMPECCABLE CRAFTSMANSHIP AND FINESSE
               </h1>
-              <p className="text-lg text-[#787054] md:w-[794px] mb-5">
+              <p className="text-lg text-[#787054] w-full md:w-[794px] mb-5">
                 {" "}
                 An example of intricate workmanship and detail, elegant
                 necklaces and long and short chains form a part of our desirable
