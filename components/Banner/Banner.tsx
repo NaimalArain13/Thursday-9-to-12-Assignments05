@@ -6,7 +6,7 @@ export default function Banner() {
     <div className="h-screen">
       <Navbar />
       <div className="flex justify-center h-[825] w-full max-w-[1486px]">
-        <div className="h-full max-h-[573px] px-2 md:px-7  w-full max-w-[1271px] m-1 md:m-12">
+        <div className="h-full max-h-[573px] px-2 pt-3 md:px-7  w-full max-w-[1271px] m-1 md:m-12">
           <div
               className="md:hidden w-full max-w-[421px] h-[500px] flex justify-center items-center bg-cover bg-center "
               style={{ backgroundImage: `url('/images/banner.png')` }}
@@ -14,7 +14,7 @@ export default function Banner() {
               <div className="w-full h-[470px] border-[1px] border-white m-5 rounded-tl-[128px] rounded-br-[128px]"></div>
             </div>
           <div className="flex md:justify-between items-center">
-            <div className="flex flex-col text-center md:text-left">
+            <div className="flex flex-col text-center pt-4 md:pt-0 md:text-left">
               <h1 className="font-bold font-[Roboto] mb-2 leading-loose text-3xl md:text-5xl w-full md:h-40 md:w-[472px]">
                 {" "}
                 IMPECCABLE CRAFTSMANSHIP AND FINESSE
