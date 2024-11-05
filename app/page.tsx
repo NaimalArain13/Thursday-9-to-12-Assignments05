@@ -41,14 +41,16 @@
 // }
 
 import React from "react";
-import Navbar from "@/components/Navbar/Navbar";
+// import Navbar from "@/components/Navbar/Navbar";
+import Banner from "@/components/Banner/Banner";
 
 export default function Home() {
   return (
     <div className="h-screen">
-      <Navbar />
+      {/* <Navbar /> */}
+      <Banner />
 
-      <div className="flex flex-col gap-y-5 w-full md:flex-row md:justify-between h-[80%] m-5 md:m-14">
+      {/* <div className="flex flex-col gap-y-5 w-full md:flex-row md:justify-between h-[80%] m-5 md:m-14">
         <div
           className="w-full max-w-[421px] md:h-[573px]  md:hidden justify-center items-center bg-cover bg-center rounded-tl-[128px] rounded-br-[128px]"
           style={{ backgroundImage: `url('/images/banner.png')`}}
@@ -76,7 +78,7 @@ export default function Home() {
           <div className="w-[380px] h-[525px] border-[3px] border-white m-5 rounded-tl-[128px] rounded-br-[128px]"></div>
         </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
