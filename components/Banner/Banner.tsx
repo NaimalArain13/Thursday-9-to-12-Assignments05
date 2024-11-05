@@ -6,12 +6,12 @@ export default function Banner() {
     <div className="h-screen">
       <Navbar />
       <div className="flex justify-center h-[825] w-full max-w-[1486px]">
-        <div className="h-full max-h-[573px] px-7  w-full max-w-[1271px] m-12">
+        <div className="h-full max-h-[573px] px-2 md:px-7  w-full max-w-[1271px] m-1 md:m-12">
           <div
-              className="md:hidden w-full max-w-[421px] h-[400px] flex justify-center items-center bg-cover bg-center "
+              className="md:hidden w-full max-w-[421px] h-[500px] flex justify-center items-center bg-cover bg-center "
               style={{ backgroundImage: `url('/images/banner.png')` }}
             >
-              {/* <div className="w-[90%] h-[350px] border-[3px] border-white m-5 rounded-tl-[128px] rounded-br-[128px]"></div> */}
+              <div className="w-full h-[470px] border-[1px] border-white m-5 rounded-tl-[128px] rounded-br-[128px]"></div>
             </div>
           <div className="flex md:justify-between items-center">
             <div className="flex flex-col text-center md:text-left">
