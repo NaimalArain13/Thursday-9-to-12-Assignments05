@@ -14,7 +14,7 @@ export default function Banner() {
               <div className="w-[380px] h-[525px] border-[3px] border-white m-5 rounded-tl-[128px] rounded-br-[128px]"></div>
             </div>
           <div className="flex md:justify-between items-center">
-            <div className="flex flex-col">
+            <div className="flex flex-col text-center md:text-left">
               <h1 className="font-bold font-[Roboto] mb-2 leading-loose text-3xl md:text-5xl md:h-40 md:w-[472px]">
                 {" "}
                 IMPECCABLE CRAFTSMANSHIP AND FINESSE
